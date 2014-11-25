@@ -40,7 +40,7 @@ void NLPERMANENTMARKERSHOSTSonHostsParseError(NLPERMANENTMARKERSHOSTS_CHostEntry
     NSString *errorString = [NSString stringWithFormat:errorFormatString, error->linenumber, error->token, error->error];
     
     NSInteger choice = NSRunAlertPanel(windowTitle, errorString, @"No", nil, @"Yes");
-    if (choice == NSAlertDefaultReturn) {
+    if (choice == NSAlertFirstButtonReturn) {
         [[NSApplication sharedApplication] terminate:nil];
     }
 }

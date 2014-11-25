@@ -23,7 +23,7 @@ BISON_VERSION_GT_2_5 = $(shell $(BISON_PATH) --version | head -n1 | cut -d' '  -
 
 
 .PHONY:
-ifneq ($(BISON_VERSION_GT_2_5), 1)
+ifeq ($(BISON_VERSION_GT_2_5), 1)
 	@echo `$(BISON_PATH) --version | head -n1`
 	@echo "bison version must be greater then 2.5, make sure bison 2.5 is on your PATH or BISON_PATH is set to the correct bison in the parser's build settings."
 	@false

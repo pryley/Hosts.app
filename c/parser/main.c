@@ -20,6 +20,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "hosts.h"
+#include "hostsparser.h"
 
 void print_chost_entry(NLPERMANENTMARKERSHOSTS_CHostEntry * entry) {
     printf("CHostentry by print_chost_entry callback:  %s\t%s\t%s\n", entry->address, entry->hostnames, entry->comment);

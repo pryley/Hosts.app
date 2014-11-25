@@ -29,4 +29,5 @@
 - (id) initWithAuthView:(SFAuthorizationView *) anAuthView;
 - (void) obtain;
 - (void) conditionallyInstallAuthorizationRule;
+
 @end

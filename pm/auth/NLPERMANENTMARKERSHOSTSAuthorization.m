@@ -52,6 +52,8 @@
 
 - (id) initWithAuthView:(SFAuthorizationView *) anAuthView {
     self = [super init];
+	
+	
 
     if (self) {
         authView = anAuthView;
@@ -79,6 +81,5 @@
 - (void) obtain {
     [authView authorize:self];
 }
-
 
 @end
