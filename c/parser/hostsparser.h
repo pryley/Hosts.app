@@ -48,4 +48,10 @@ void NLPERMANENTMARKERSHOSTSset_error_callback(void (*error_handler)(NLPERMANENT
  */
 void NLPERMANENTMARKERSHOSTSparsefile(char * filename, void (*callback)(NLPERMANENTMARKERSHOSTS_CHostEntry *), void (*error_handler)(NLPERMANENTMARKERSHOSTS_CHostEntryError *) );
 
+void NLPERMANENTMARKERSHOSTSlex_init(void * scanner);
+void NLPERMANENTMARKERSHOSTSlex_destroy(void * scanner);
+
+int NLPERMANENTMARKERSHOSTSparse(void * scanner);
+int NLPERMANENTMARKERSHOSTSget_lineno(void * scanner);
+
 #endif

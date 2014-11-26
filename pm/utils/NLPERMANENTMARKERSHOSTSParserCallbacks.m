@@ -38,7 +38,7 @@ void NLPERMANENTMARKERSHOSTSonHostsParseError(NLPERMANENTMARKERSHOSTS_CHostEntry
     NSString *errorFormatString = NSLocalizedStringFromTable(@"In /private/etc/hosts on line:%i %s\n\n%s\n\nShould this line be permanently removed from /private/etc/hosts?\nChoose no to quit Hosts and manually correct the error.",@"HostsAppDelegate",
                                                              @"error: description");
     NSString *errorString = [NSString stringWithFormat:errorFormatString, error->linenumber, error->token, error->error];
-    
+	
     NSInteger choice = NSRunAlertPanel(windowTitle, errorString, @"No", nil, @"Yes");
     if (choice == NSAlertFirstButtonReturn) {
         [[NSApplication sharedApplication] terminate:nil];

@@ -658,6 +658,7 @@
 				ACTION = release;
 				BISON_PATH = /usr/local/opt/bison/bin/bison;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 0.1.4;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				PRODUCT_NAME = parser;
@@ -670,6 +671,7 @@
 				ACTION = release;
 				BISON_PATH = /usr/local/opt/bison/bin/bison;
 				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 0.1.4;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				PRODUCT_NAME = parser;
 				ZERO_LINK = NO;
