@@ -11,6 +11,6 @@ Backups of your hosts file is made in ``~/Library/Application Support/Hosts``. T
 
 The default host entries that are needed by the OS are hidden and can not be edited using Hosts.
  
-![](https://github.com/pryley/Hosts.app/raw/master/screenshots/edit.png)
+![](https://github.com/pryley/Hosts.app/raw/master/edit.png)
 
 Licence: GPL-3.0
